@@ -1,2 +1,2 @@
-# Universo-dos-Her-is
+# Universo-dos-Herois
 Projeto de Javascript
