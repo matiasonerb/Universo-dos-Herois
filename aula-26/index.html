@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <title>Universos dos Heróis</title>
+</head>
+<body>
+    <script>
+        var universo = window.prompt("Digite o universo desejado: ").toLowerCase().trim();
+        var heroi = window.prompt("Digite o herói desejado: ").toLowerCase().trim();
+        var vezes = window.prompt("Digite quantas vezes você deseja ver o herói: ").toLowerCase().trim();
+        for (x=1; x <= vezes; x++){
+        if(universo == "dc"){
+            if(heroi == "batman"){
+                document.write("<b>O herói é o " + heroi + "<div class='heroi-1'></div></b>"); 
+            }
+            else if(heroi == "flash"){
+                document.write("<b>O herói é o " + heroi + "<div class='heroi-2'></div></b>"); 
+            }
+            else if(heroi == "superman"){
+                document.write("<b>O herói é o " + heroi + "<div class='heroi-11'></div></b>"); 
+            }
+            else if(heroi == "mulher maravilha"){
+                document.write("<b>A heroína é a " + heroi + "<div class='heroi-13'></div></b>"); 
+            }
+            else if(heroi == "cyborg"){
+                document.write("<b>O herói é o " + heroi + "<div class='heroi-14'></div></b>"); 
+            }
+            else if(heroi == "ravena"){
+                document.write("<b>A heroína é a " + heroi + "<div class='heroi-17'></div></b>"); 
+            }
+            else{
+                document.write("<b>O herói é inexistente nesse universo</b>"); 
+            }
+        }
+        else if(universo == "marvel"){
+            if(heroi == "spiderman"){
+                document.write("<b>O herói é o " + heroi + "<div class='heroi-3'></div></b>"); 
+            }
+            else if(heroi == "capitão américa"){
+                document.write("<b>O herói é o " + heroi + "<div class='heroi-12'></div></b>"); 
+            }
+            else if(heroi == "deadpool"){
+                document.write("<b>O herói é o " + heroi + "<div class='heroi-4'></div></b>"); 
+            }
+            else if(heroi =="hulk"){
+                document.write("<b>O herói é o " + heroi + "</b><div class='heroi-5'></div>");
+            }
+            else if(heroi =="thor"){
+                document.write("<b>O herói é o " + heroi + "</b><div class='heroi-6'></div>");
+            }
+            else if(heroi =="doctor strange"){
+                document.write("<b>O herói é o " + heroi + "</b><div class='heroi-7'></div>");
+            }
+            else if(heroi =="wolverine"){
+                document.write("<b>O herói é o " + heroi + "</b><div class='heroi-8'></div>");
+            }
+            else if(heroi =="moon knight"){
+                document.write("<b>O herói é o " + heroi + "</b><div class='heroi-9'></div>");
+            }
+            else if(heroi =="pantera negra"){
+                document.write("<b>O herói é o " + heroi + "</b><div class='heroi-10'></div>");
+            }
+            else if(heroi =="ironman"){
+                document.write("<b>O herói é o " + heroi + "</b><div class='heroi-15'></div>");
+            }
+            else if(heroi == "feiticeira escarlate"){
+                document.write("<b>A heroína é a " + heroi + "<div class='heroi-16'></div></b>"); 
+            }
+            else {
+                document.write("<b>O herói é inexistente nesse universo</b>"); 
+            }
+        
+        }
+        else{
+            document.write("Universo inexistente");
+        }
+    }
+    </script>
+</body>
+</html>

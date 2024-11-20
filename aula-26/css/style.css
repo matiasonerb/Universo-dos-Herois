@@ -1,0 +1,343 @@
+body{
+    background-color: rgb(255, 209, 56);
+}
+
+.heroi-1{
+    background-image: url('../imgs/Batman_img.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 48vw;
+    border-radius: 100%;
+    animation: batman 1s infinite;
+    margin-left: 25%;
+}
+
+@keyframes batman {
+    0%   {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg
+    }
+}
+
+.heroi-2{
+    background-image: url('../imgs/Flash_img.webp');
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+    width: 48vw;
+    border-radius: 100%;
+    animation: flash 1s infinite;
+    margin-left: 25%;
+}
+
+@keyframes flash {
+    0%   {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg
+    }
+}
+
+.heroi-3{
+    background-image: url('../imgs/Spiderman_img.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 48vw;
+    border-radius: 100%;
+    animation: spiderman 1s infinite;
+    margin-left: 25%;
+}
+
+@keyframes spiderman {
+    0%   {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg
+    }
+}
+
+.heroi-4{
+    background-image: url('../imgs/Deadpool_img.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 48vw;
+    border-radius: 100%;
+    animation: deadpool 1s infinite;
+    margin-left: 25%;
+}
+
+@keyframes deadpool {
+    0%   {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg
+    }
+}
+
+.heroi-5{
+    background-image: url('../imgs/Hulk_img.webp');
+    background-size: cover;
+    background-position: 25%;
+    height: 100vh;
+    width: 48vw;
+    border-radius: 100%;
+    animation: hulk 1s infinite;
+    margin-left: 25%;
+}
+
+@keyframes hulk {
+    0%   {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg
+    }
+}
+
+.heroi-6{
+    background-image: url('../imgs/Thor_img.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 48vw;
+    border-radius: 100%;
+    animation: thor 1s infinite;
+    margin-left: 25%;
+}
+
+@keyframes thor {
+    0%   {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg
+    }
+}
+
+.heroi-7{
+    background-image: url('../imgs/Doutor_Estranho_img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 48vw;
+    border-radius: 100%;
+    animation: doutor 1s infinite;
+    margin-left: 25%;
+}
+
+@keyframes doutor {
+    0%   {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg
+    }
+}
+
+.heroi-8{
+    background-image: url('../imgs/Wolverine_img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 48vw;
+    border-radius: 100%;
+    animation: wolverine 1s infinite;
+    margin-left: 25%;
+}
+
+@keyframes wolverine {
+    0%   {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg
+    }
+}
+
+.heroi-9{
+    background-image: url('../imgs/Moon_Knight_img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 48vw;
+    border-radius: 100%;
+    animation: moon 1s infinite;
+    margin-left: 25%;
+}
+
+@keyframes moon {
+    0%   {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg
+    }
+}
+
+.heroi-10{
+    background-image: url('../imgs/Pantera_Negra_img.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 48vw;
+    border-radius: 100%;
+    animation: pantera 1s infinite;
+    margin-left: 25%;
+}
+
+@keyframes pantera {
+    0%   {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg
+    }
+}
+
+.heroi-11{
+    background-image: url('../imgs/Superman_img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 48vw;
+    border-radius: 100%;
+    animation: superman 1s infinite;
+    margin-left: 25%;
+}
+
+@keyframes superman {
+    0%   {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg
+    }
+}
+
+.heroi-12{
+    background-image: url('../imgs/Capitão_América_img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 48vw;
+    border-radius: 100%;
+    animation: capitao 1s infinite;
+    margin-left: 25%;
+}
+
+@keyframes capitao {
+    0%   {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg
+    }
+}
+
+.heroi-13{
+    background-image: url('../imgs/Mulher_Maravilha_img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 48vw;
+    border-radius: 100%;
+    animation: mm 1s infinite;
+    margin-left: 25%;
+}
+
+@keyframes mm {
+    0%   {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg
+    }
+}
+
+.heroi-14{
+    background-image: url('../imgs/Cyborg_img.jpg');
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+    width: 48vw;
+    border-radius: 100%;
+    animation: cyborg 1s infinite;
+    margin-left: 25%;
+}
+
+@keyframes cyborg {
+    0%   {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg
+    }
+}
+
+.heroi-15{
+    background-image: url('../imgs/Ironman_img.jpg');
+    background-size: cover;
+    background-position: 30%;
+    height: 100vh;
+    width: 48vw;
+    border-radius: 100%;
+    animation: ironman 1s infinite;
+    margin-left: 25%;
+}
+
+@keyframes ironman {
+    0%   {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg
+    }
+}
+
+.heroi-16{
+    background-image: url('../imgs/Feiticeira_Escarlate_img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 48vw;
+    border-radius: 100%;
+    animation: escarlate 1s infinite;
+    margin-left: 25%;
+}
+
+@keyframes escarlate {
+    0%   {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg
+    }
+}
+
+.heroi-17{
+    background-image: url('../imgs/Ravena_img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 48vw;
+    border-radius: 100%;
+    animation: ravena 1s infinite;
+    margin-left: 25%;
+}
+
+@keyframes ravena {
+    0%   {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg
+    }
+}
